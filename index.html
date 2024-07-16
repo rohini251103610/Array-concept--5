@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+  <script>
+  //1.Array Manipulation
+//push()
+let a=[0,1,2,3,4];
+a.push(10);
+console.log(a);
+
+//pop()
+let b=[0,1,2,3,4];
+b.pop(4);
+console.log(b);
+
+//shift()
+let c=[0,1,2,3,4];
+c.shift(0);
+console.log(c);
+
+//unshift()
+let d=[0,1,2,3,4];
+d.unshift(0);
+console.log(d);
+
+//2. Array Searching
+
+let fruits=["Apple","orange","pineapple","Mango"];
+console.log(fruits);
+
+//indexOf()
+console.log(fruits.indexOf("orange"));
+
+
+//includes()
+console.log(fruits.includes("kiwi"));
+
+//find()
+let arr=[1,2,3,4,5]
+console.log(arr.find(num=>num<5));
+
+3.//Array Sorting
+let veg=["carrot","raddish","onion","tomato","brinjal"];
+console.log(veg);
+
+//sort()
+console.log(veg.sort());
+
+//reverse()
+console.log(veg.reverse());
+
+//4.Array Mapping
+
+let color=["blue","black","white","red","violet"]
+console.log(color);
+
+//map()
+let array=[12,14,6,5,7];
+console.log(array.map(a=>a+3));
+
+
+
+//5.Array filter
+console.log(array.filter(a=>a>10));
+
+</script>
+
+</body>
+</html>
